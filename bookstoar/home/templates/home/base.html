@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookStoar | {% block title %}{% endblock %}</title>
+</head>
+<body>
+
+<div>
+    <div><a href="home">Home</a></div>
+    <div><a href="browse">Browse</a></div>
+    <div><a href="myshelf">My shelf</a></div>
+    <div><a href="myaccount">My account</a></div>
+</div>
+<div>&nbsp; </div>
+<div>
+    {% block content %}
+    {% endblock %}
+</div>
+</body>
+</html>
